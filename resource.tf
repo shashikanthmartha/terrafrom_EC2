@@ -18,7 +18,7 @@ resource "aws_instance" "shashi2" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t2.micro"
   security_groups = [aws_security_group.shashi_ec2.name]
-  key_name = "kp"
+  key_name = "myKey"
   
 
   tags = {
