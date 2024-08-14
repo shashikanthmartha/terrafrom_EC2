@@ -22,7 +22,7 @@ resource "aws_instance" "shashi2" {
   
 
   tags = {
-    Name = "shashi-1"
+    Name = "shashi-2"
   }
 }
 resource "aws_default_vpc" "default" {
